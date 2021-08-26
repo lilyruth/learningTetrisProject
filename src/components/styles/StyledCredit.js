@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 export const StyledCredit = styled.div`
  color: lightskyblue;
-font-size: 1.3rem;
+font-size: 1rem;
 font-family: Major Mono Display, monospace;
-width: 70vw;
+width: 85vw;
 padding: 1rem;
 text-align: center;
 margin-left: auto;
