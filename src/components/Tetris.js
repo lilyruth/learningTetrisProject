@@ -6,6 +6,7 @@ import Stage from './Stage';
 import Display from './Display';
 import StartButton from './StartButton';
 import CreditStatement from './CreditStatement';
+import Instructions from './Instructions'
 
 // Styled Components
 import { StyledTetrisWrapper, StyledTetris } from './styles/StyledTetris';
@@ -99,7 +100,13 @@ const Tetris = () => {
 
 	return (
 		<StyledTetrisWrapper role="button" tabIndex="0" onKeyDown={e => move(e)} onKeyUp={keyUp}>
+				<Instructions />
+		
 			<StyledTetris>
+	
+			
+				
+			
 			<Stage stage={stage} />
 			<aside>
 				{ gameOver ? (
