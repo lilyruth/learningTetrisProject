@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# This is a tutorial from freeCodeCamp!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Mintbean hackathon for this month is to create a game. I didn't feel quite ready to create a game, so I found a tutorial that would take me through the steps.In addition, we haven't covered hooks in my bootcamp, so I thought this tutorial would be a good opportunity to learn hooks as well.
 
-## Available Scripts
+[How to Build Tetris in React] (https://www.youtube.com/watch?v=ZGOaCxX8HIU)
 
-In the project directory, you can run:
+## What I'm learning through this
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Planning
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+When you jump into React, planning a structure for the app can be a challenge. I like how he uses App.js to outline the components. The outlining process is helping me understand the interrelationship of components a little better.
 
-### `yarn test`
+### Hooks & Styled Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I've not used hooks or Styled Components yet. This was a great introduction to both of these concepts. I added in a credit component and styled credit component to make sure when I deploy the finished project, credit is given where credit is due. I couldn't figure out quickly how to style a link in styled components without creating a new component or prop just for the link, so I went with a quick inline style to fix that. For whatever reason the board and buttons remained aligned left, so I went ahead and fixed that to center as well. 
 
-### `yarn build`
+### Arrays, Arrays, Arrays
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I love how this game runs on arrays. Everything on the internet is either and object or an array (lol. Arrays are objects.). 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Overall this was a fantastic experience. I can't say I normally learn this much doing a tutorial. 
